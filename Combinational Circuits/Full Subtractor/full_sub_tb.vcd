@@ -1,0 +1,64 @@
+$date
+	Tue Dec 30 22:35:31 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module full_sub_tb $end
+$var wire 1 ! Sub $end
+$var wire 1 " Bout $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 1 % Cin $end
+$scope module uut $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 % Bin $end
+$var wire 1 " Bout $end
+$var wire 1 ! Sub $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+0!
+$end
+#10
+1!
+1"
+1$
+#20
+0"
+0$
+1#
+#30
+0!
+1$
+#40
+1"
+1!
+1%
+0$
+0#
+#50
+0!
+1$
+#60
+0"
+0$
+1#
+#70
+1"
+1!
+1$
+#80
