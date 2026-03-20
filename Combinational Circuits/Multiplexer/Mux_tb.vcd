@@ -1,0 +1,56 @@
+$date
+	Fri Mar 20 06:59:28 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Mux_tb $end
+$var wire 4 ! out [3:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$var reg 1 $ sel $end
+$scope module uut $end
+$var wire 4 % a [3:0] $end
+$var wire 4 & b [3:0] $end
+$var wire 1 $ sel $end
+$var reg 4 ' out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1010 '
+b101 &
+b1010 %
+0$
+b101 #
+b1010 "
+b1010 !
+$end
+#10
+b101 !
+b101 '
+1$
+#20
+b1111 !
+b1111 '
+b0 #
+b0 &
+b1111 "
+b1111 %
+0$
+#30
+b1110 !
+b1110 '
+b1110 #
+b1110 &
+b1 "
+b1 %
+1$
+#40
