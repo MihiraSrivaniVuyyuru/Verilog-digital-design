@@ -1,0 +1,50 @@
+$date
+	Sun Mar 22 00:54:48 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Decoder_tb $end
+$var wire 4 ! y [3:0] $end
+$var reg 2 " sel [1:0] $end
+$scope module uut $end
+$var wire 2 # sel [1:0] $end
+$var reg 4 $ y [3:0] $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 % i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx %
+b1 $
+b0 #
+b0 "
+b1 !
+$end
+#10000
+b0 %
+#20000
+b10 !
+b10 $
+b1 "
+b1 #
+b1 %
+#30000
+b10 %
+#40000
+b1000 !
+b1000 $
+b11 "
+b11 #
+b11 %
+#50000
+b100 %
