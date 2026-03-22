@@ -1,0 +1,60 @@
+$date
+	Sun Mar 22 21:46:41 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Priority_Encoder_tb $end
+$var wire 1 ! valid $end
+$var wire 2 " out [1:0] $end
+$var reg 1 # enable $end
+$var reg 4 $ in [3:0] $end
+$scope module uut $end
+$var wire 1 # enable $end
+$var wire 4 % in [3:0] $end
+$var reg 2 & out [1:0] $end
+$var reg 1 ! valid $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 ' i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+b0 &
+b1 %
+b1 $
+0#
+b0 "
+0!
+$end
+#10000
+1!
+b1 "
+b1 &
+b11 $
+b11 %
+1#
+b1 '
+#20000
+b11 "
+b11 &
+b1101 $
+b1101 %
+b10 '
+#30000
+b1 "
+b1 &
+b10 $
+b10 %
+b11 '
+#40000
+b100 '
