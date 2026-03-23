@@ -15,7 +15,8 @@ It is useful for students learning Digital Electronics, VLSI, and Verilog HDL.
 4) NAND Gate  
 5) NOR Gate  
 6) XOR Gate  
-7) XNOR Gate  
+7) XNOR Gate
+8) Buffer Gate  
 
 <u>**-> Combinational Circuits**</u>
 
